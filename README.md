@@ -1,29 +1,49 @@
-Database Repository Server
-==========================
+dbgit - Database Snapshot Repository
+====================================
 
-This project provides a database repository server.
+Dbgit provides a repository for database snapshots. It's a client/server application written in Ruby.
 
 
 
-Starting the Database Repository Server
----------------------------------------
+dbgit Server
+============
 
-If you want to run the application manually, use the following commands (make sure to start the application with sudo!)
+The dbgit server is a Sinatra application. It can be accessed on port 4567 once it's started.
 
+
+
+Starting the dbgit server
+-------------------------
+
+If you want to run the application manually, use the following commands
+
+    cd server
     rackup
 
-As a developer working on the Box API, use the following command for auto-reloading the application and additional CORS origins
+As a developer, use the following command for auto-reloading the application
 
+    cd server
     rackup -E development
 
-Logs are written to `<application directory>/log/server_log`
+Logfiles are written to `server/log/[access|error|server]_log`
+
+
+
+dbgit Client
+============
+
+There is a dedicated documentation for the client [here](client/README.md)
 
 
 
 TODOs
 =====
 
-* Provide start / stop scripts for running the database repository as a service
+This project is still under heavy construction!!! Do not use it in production yet!
+
+* Ship server as a gem
+* Upload gem to gemfiles.org
+* Add better error handling to server and the REST client
 
 
 

@@ -1,5 +1,5 @@
-dbgit
-=====
+dbgit client
+============
 
 dbgit is a database repository for managing database snapshots. It is a client server application. The client command is `dbgit`.
 
@@ -32,7 +32,7 @@ TODOs
 * Add metadata to snapshots
 * Move longdesc of Thor file into separate files
 * Think about a search path for the client configuration file
-  * Write custom configuration into user's home directory, e.g. `~/.dbrepo.conf`
+  * Best idea might be to always look for a `.dbgit.conf` file in the current directory
 * Implement usage of multiple remote repositories
 
 
