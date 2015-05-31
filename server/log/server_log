@@ -1,0 +1,1254 @@
+[2015-05-24 11:02:00] INFO  WEBrick 1.3.1
+[2015-05-24 11:02:00] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-24 11:02:00] DEBUG TCPServer.new(::1, 4567)
+[2015-05-24 11:02:00] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-24 11:02:00] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-24 11:02:00] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-24 11:02:00] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-24 11:02:00] INFO  WEBrick::HTTPServer#start: pid=23390 port=4567
+[2015-05-24 11:02:21] DEBUG accept: ::1:57790
+[2015-05-24 11:02:21] DEBUG accept: ::1:57791
+[2015-05-24 11:02:21] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 11:02:21] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 11:02:22] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 11:02:22] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 11:02:27] DEBUG accept: ::1:57796
+[2015-05-24 11:02:27] DEBUG accept: ::1:57797
+[2015-05-24 11:02:27] DEBUG accept: ::1:57798
+[2015-05-24 11:02:27] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 11:02:31] DEBUG close: ::1:57791
+[2015-05-24 11:02:37] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 11:02:41] DEBUG close: ::1:57798
+[2015-05-24 11:02:41] DEBUG close: ::1:57796
+[2015-05-24 11:02:41] DEBUG close: ::1:57797
+[2015-05-24 11:02:41] DEBUG accept: ::1:57809
+[2015-05-24 11:02:41] DEBUG accept: ::1:57810
+[2015-05-24 11:02:41] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 11:03:01] DEBUG close: ::1:57809
+[2015-05-24 11:03:01] DEBUG close: ::1:57810
+[2015-05-24 11:03:11] DEBUG close: ::1:57790
+[2015-05-24 11:30:31] DEBUG accept: ::1:58500
+[2015-05-24 11:30:31] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 11:30:31] DEBUG close: ::1:58500
+[2015-05-24 17:50:14] DEBUG close TCPSocket(::1, 4567)
+[2015-05-24 17:50:14] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-24 17:50:14] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-24 17:50:14] INFO  going to shutdown ...
+[2015-05-24 17:50:14] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-24 17:50:20] INFO  WEBrick 1.3.1
+[2015-05-24 17:50:20] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-24 17:50:20] DEBUG TCPServer.new(::1, 4567)
+[2015-05-24 17:50:20] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-24 17:50:20] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-24 17:50:20] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-24 17:50:20] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-24 17:50:20] INFO  WEBrick::HTTPServer#start: pid=32175 port=4567
+[2015-05-24 18:01:30] DEBUG close TCPSocket(::1, 4567)
+[2015-05-24 18:01:30] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-24 18:01:30] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-24 18:01:30] INFO  going to shutdown ...
+[2015-05-24 18:01:30] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-24 18:01:56] INFO  WEBrick 1.3.1
+[2015-05-24 18:01:56] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-24 18:01:56] DEBUG TCPServer.new(::1, 4567)
+[2015-05-24 18:01:56] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-24 18:01:56] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-24 18:01:56] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-24 18:01:56] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-24 18:01:56] INFO  WEBrick::HTTPServer#start: pid=33076 port=4567
+[2015-05-24 18:02:37] DEBUG accept: ::1:59780
+[2015-05-24 18:02:37] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 18:02:37] ERROR NoMethodError: undefined method `join' for #<String:0x007fcdac6990c0>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-24 18:02:37] DEBUG close: ::1:59780
+[2015-05-24 18:03:02] DEBUG accept: ::1:59781
+[2015-05-24 18:03:02] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 18:03:02] ERROR NoMethodError: undefined method `join' for #<String:0x007fcdac53b390>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-24 18:03:02] DEBUG close: ::1:59781
+[2015-05-24 18:05:24] DEBUG accept: ::1:59782
+[2015-05-24 18:05:24] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 18:05:24] DEBUG close: ::1:59782
+[2015-05-24 18:06:05] DEBUG accept: ::1:59783
+[2015-05-24 18:06:05] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 18:06:05] DEBUG close: ::1:59783
+[2015-05-24 18:08:20] DEBUG accept: 127.0.0.1:59784
+[2015-05-24 18:08:20] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 18:08:20] DEBUG close: 127.0.0.1:59784
+[2015-05-24 18:14:37] DEBUG accept: 127.0.0.1:59785
+[2015-05-24 18:14:37] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 18:14:37] DEBUG close: 127.0.0.1:59785
+[2015-05-24 18:30:52] DEBUG accept: 127.0.0.1:59786
+[2015-05-24 18:30:52] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-24 18:30:52] DEBUG close: 127.0.0.1:59786
+[2015-05-25 00:04:44] DEBUG accept: 127.0.0.1:60233
+[2015-05-25 00:04:44] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 00:04:44] DEBUG close: 127.0.0.1:60233
+[2015-05-25 00:05:10] DEBUG accept: 127.0.0.1:60242
+[2015-05-25 00:05:10] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 00:05:10] DEBUG close: 127.0.0.1:60242
+[2015-05-25 23:10:23] DEBUG accept: ::1:61539
+[2015-05-25 23:10:23] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:10:23] DEBUG close: ::1:61539
+[2015-05-25 23:21:23] DEBUG accept: ::1:61742
+[2015-05-25 23:21:23] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:21:23] DEBUG close: ::1:61742
+[2015-05-25 23:22:13] DEBUG accept: ::1:61754
+[2015-05-25 23:22:13] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:22:13] DEBUG close: ::1:61754
+[2015-05-25 23:23:07] DEBUG accept: ::1:61768
+[2015-05-25 23:23:07] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:23:07] DEBUG close: ::1:61768
+[2015-05-25 23:23:28] DEBUG accept: ::1:61774
+[2015-05-25 23:23:28] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:23:28] DEBUG close: ::1:61774
+[2015-05-25 23:24:22] DEBUG accept: ::1:61785
+[2015-05-25 23:24:22] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:24:22] DEBUG close: ::1:61785
+[2015-05-25 23:24:43] DEBUG accept: ::1:61791
+[2015-05-25 23:24:43] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:24:43] DEBUG close: ::1:61791
+[2015-05-25 23:25:20] DEBUG accept: ::1:61798
+[2015-05-25 23:25:20] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:25:20] DEBUG close: ::1:61798
+[2015-05-25 23:25:49] DEBUG accept: ::1:61805
+[2015-05-25 23:25:49] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:25:49] DEBUG close: ::1:61805
+[2015-05-25 23:26:26] DEBUG accept: ::1:61813
+[2015-05-25 23:26:26] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:26:26] DEBUG close: ::1:61813
+[2015-05-25 23:26:46] DEBUG accept: ::1:61819
+[2015-05-25 23:26:46] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:26:46] DEBUG close: ::1:61819
+[2015-05-25 23:27:22] DEBUG accept: ::1:61827
+[2015-05-25 23:27:22] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:27:22] DEBUG close: ::1:61827
+[2015-05-25 23:27:31] DEBUG accept: ::1:61831
+[2015-05-25 23:27:31] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:27:31] DEBUG close: ::1:61831
+[2015-05-25 23:38:46] DEBUG accept: ::1:62025
+[2015-05-25 23:38:46] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:38:46] DEBUG close: ::1:62025
+[2015-05-25 23:46:38] DEBUG accept: ::1:62349
+[2015-05-25 23:46:38] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:46:38] DEBUG close: ::1:62349
+[2015-05-25 23:47:54] DEBUG accept: ::1:62429
+[2015-05-25 23:47:54] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:47:54] DEBUG close: ::1:62429
+[2015-05-25 23:48:21] DEBUG accept: ::1:62451
+[2015-05-25 23:48:21] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:48:21] DEBUG close: ::1:62451
+[2015-05-25 23:48:36] DEBUG accept: ::1:62466
+[2015-05-25 23:48:36] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:48:36] DEBUG close: ::1:62466
+[2015-05-25 23:48:56] DEBUG accept: ::1:62499
+[2015-05-25 23:48:56] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:48:56] DEBUG close: ::1:62499
+[2015-05-25 23:49:52] DEBUG accept: ::1:62536
+[2015-05-25 23:49:52] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:49:53] DEBUG close: ::1:62536
+[2015-05-25 23:51:59] DEBUG accept: ::1:62626
+[2015-05-25 23:51:59] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:51:59] DEBUG close: ::1:62626
+[2015-05-25 23:52:14] DEBUG accept: ::1:62655
+[2015-05-25 23:52:14] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:52:14] DEBUG close: ::1:62655
+[2015-05-25 23:52:34] DEBUG accept: ::1:62673
+[2015-05-25 23:52:34] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:52:34] DEBUG close: ::1:62673
+[2015-05-25 23:53:50] DEBUG accept: ::1:62751
+[2015-05-25 23:53:50] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:53:50] DEBUG close: ::1:62751
+[2015-05-25 23:58:02] DEBUG accept: ::1:63026
+[2015-05-25 23:58:02] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:58:03] ERROR NoMethodError: undefined method `join' for #<String:0x007fcdac454558>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-25 23:58:03] DEBUG close: ::1:63026
+[2015-05-25 23:58:37] DEBUG accept: ::1:63056
+[2015-05-25 23:58:37] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:58:37] ERROR NoMethodError: undefined method `join' for #<String:0x007fcdad239150>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-25 23:58:37] DEBUG close: ::1:63056
+[2015-05-25 23:59:05] DEBUG accept: 127.0.0.1:63083
+[2015-05-25 23:59:05] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-25 23:59:05] ERROR NoMethodError: undefined method `join' for #<String:0x007fcdac4d5360>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-25 23:59:05] DEBUG close: 127.0.0.1:63083
+[2015-05-26 00:00:07] DEBUG accept: ::1:63147
+[2015-05-26 00:00:07] DEBUG Rack::Handler::WEBrick is invoked.
+mkdir: /neosbase: Permission denied
+[2015-05-26 00:00:07] ERROR NoMethodError: undefined method `join' for #<String:0x007fcdad250e68>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-26 00:00:07] DEBUG close: ::1:63147
+[2015-05-26 00:00:49] DEBUG accept: ::1:63179
+[2015-05-26 00:00:49] DEBUG Rack::Handler::WEBrick is invoked.
+mkdir: /neosbase: Permission denied
+mv: rename /var/folders/5g/19mv6nv972d1dh_6k7gs6k7r0000gp/T/RackMultipart20150526-33076-10t4xow.sql to /neosbase/tag1: No such file or directory
+[2015-05-26 00:00:49] DEBUG close: ::1:63179
+[2015-05-26 00:01:57] DEBUG accept: 127.0.0.1:63236
+[2015-05-26 00:01:57] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 00:01:57] DEBUG close: 127.0.0.1:63236
+[2015-05-26 08:50:49] DEBUG accept: 127.0.0.1:63319
+[2015-05-26 08:50:49] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 08:50:49] ERROR NoMethodError: undefined method `join' for #<String:0x007fcdac960bc8>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-26 08:50:49] DEBUG close: 127.0.0.1:63319
+[2015-05-26 08:51:09] DEBUG accept: 127.0.0.1:63320
+[2015-05-26 08:51:09] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 08:51:09] ERROR NoMethodError: undefined method `join' for #<String:0x007fcdac65e6c8>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-26 08:51:09] DEBUG close: 127.0.0.1:63320
+[2015-05-26 08:51:35] DEBUG accept: 127.0.0.1:63321
+[2015-05-26 08:51:35] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 08:51:35] DEBUG close: 127.0.0.1:63321
+[2015-05-26 08:52:30] DEBUG accept: 127.0.0.1:63322
+[2015-05-26 08:52:30] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 08:52:30] DEBUG close: 127.0.0.1:63322
+[2015-05-26 08:54:31] DEBUG accept: 127.0.0.1:63323
+[2015-05-26 08:54:31] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 08:54:31] DEBUG close: 127.0.0.1:63323
+[2015-05-26 09:02:43] DEBUG accept: 127.0.0.1:63325
+[2015-05-26 09:02:43] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 09:02:43] DEBUG close: 127.0.0.1:63325
+[2015-05-26 09:04:22] DEBUG accept: 127.0.0.1:63326
+[2015-05-26 09:04:22] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 09:04:22] DEBUG close: 127.0.0.1:63326
+[2015-05-26 09:04:25] DEBUG accept: 127.0.0.1:63327
+[2015-05-26 09:04:25] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 09:04:25] DEBUG close: 127.0.0.1:63327
+[2015-05-26 09:05:52] DEBUG accept: 127.0.0.1:63328
+[2015-05-26 09:05:52] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 09:05:52] DEBUG close: 127.0.0.1:63328
+[2015-05-26 09:06:15] DEBUG accept: 127.0.0.1:63329
+[2015-05-26 09:06:15] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 09:06:15] DEBUG close: 127.0.0.1:63329
+[2015-05-26 09:06:20] DEBUG accept: 127.0.0.1:63330
+[2015-05-26 09:06:20] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 09:06:20] DEBUG close: 127.0.0.1:63330
+[2015-05-26 09:06:25] DEBUG accept: 127.0.0.1:63331
+[2015-05-26 09:06:25] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-26 09:06:25] DEBUG close: 127.0.0.1:63331
+[2015-05-27 00:07:33] DEBUG close TCPSocket(::1, 4567)
+[2015-05-27 00:07:33] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-27 00:07:33] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-27 00:07:33] INFO  going to shutdown ...
+[2015-05-27 00:07:33] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-27 00:09:06] INFO  WEBrick 1.3.1
+[2015-05-27 00:09:06] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-27 00:09:06] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-27 00:09:06] DEBUG TCPServer.new(::1, 4567)
+[2015-05-27 00:09:06] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-27 00:09:06] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-27 00:09:06] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-27 00:09:06] INFO  WEBrick::HTTPServer#start: pid=56159 port=4567
+[2015-05-27 00:09:36] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-27 00:09:36] DEBUG close TCPSocket(::1, 4567)
+[2015-05-27 00:09:36] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-27 00:09:36] INFO  going to shutdown ...
+[2015-05-27 00:09:36] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-27 00:09:38] INFO  WEBrick 1.3.1
+[2015-05-27 00:09:38] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-27 00:09:38] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-27 00:09:38] DEBUG TCPServer.new(::1, 4567)
+[2015-05-27 00:09:38] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-27 00:09:38] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-27 00:09:38] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-27 00:09:38] INFO  WEBrick::HTTPServer#start: pid=56294 port=4567
+[2015-05-27 00:17:18] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-27 00:17:18] DEBUG close TCPSocket(::1, 4567)
+[2015-05-27 00:17:18] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-27 00:17:18] INFO  going to shutdown ...
+[2015-05-27 00:17:18] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-27 00:17:20] INFO  WEBrick 1.3.1
+[2015-05-27 00:17:20] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-27 00:17:20] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-27 00:17:20] DEBUG TCPServer.new(::1, 4567)
+[2015-05-27 00:17:20] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-27 00:17:20] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-27 00:17:20] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-27 00:17:20] INFO  WEBrick::HTTPServer#start: pid=56649 port=4567
+[2015-05-27 00:24:46] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-27 00:24:46] DEBUG close TCPSocket(::1, 4567)
+[2015-05-27 00:24:46] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-27 00:24:46] INFO  going to shutdown ...
+[2015-05-27 00:24:46] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-27 00:24:49] INFO  WEBrick 1.3.1
+[2015-05-27 00:24:49] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-27 00:24:49] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-27 00:24:49] DEBUG TCPServer.new(::1, 4567)
+[2015-05-27 00:24:49] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-27 00:24:49] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-27 00:24:49] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-27 00:24:49] INFO  WEBrick::HTTPServer#start: pid=57002 port=4567
+[2015-05-27 00:25:04] DEBUG accept: 127.0.0.1:64022
+[2015-05-27 00:25:04] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:25:04] ERROR NoMethodError: undefined method `join' for #<String:0x007fac7b046530>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-27 00:25:04] DEBUG close: 127.0.0.1:64022
+[2015-05-27 00:25:22] DEBUG accept: 127.0.0.1:64023
+[2015-05-27 00:25:22] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:25:22] ERROR NoMethodError: undefined method `join' for #<String:0x007fac7aa55950>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-27 00:25:22] DEBUG close: 127.0.0.1:64023
+[2015-05-27 00:26:04] DEBUG accept: 127.0.0.1:64029
+[2015-05-27 00:26:04] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:26:04] ERROR NoMethodError: undefined method `join' for #<String:0x007fac7cab0d30>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-27 00:26:04] DEBUG close: 127.0.0.1:64029
+[2015-05-27 00:26:55] DEBUG accept: 127.0.0.1:64032
+[2015-05-27 00:26:55] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:26:55] ERROR NoMethodError: undefined method `join' for #<String:0x007fac7b469338>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-27 00:26:55] DEBUG close: 127.0.0.1:64032
+[2015-05-27 00:27:32] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-27 00:27:32] DEBUG close TCPSocket(::1, 4567)
+[2015-05-27 00:27:32] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-27 00:27:32] INFO  going to shutdown ...
+[2015-05-27 00:27:32] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-27 00:27:35] INFO  WEBrick 1.3.1
+[2015-05-27 00:27:35] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-27 00:27:35] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-27 00:27:35] DEBUG TCPServer.new(::1, 4567)
+[2015-05-27 00:27:35] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-27 00:27:35] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-27 00:27:35] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-27 00:27:35] INFO  WEBrick::HTTPServer#start: pid=57826 port=4567
+[2015-05-27 00:27:40] DEBUG accept: 127.0.0.1:64033
+[2015-05-27 00:27:40] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:27:40] DEBUG close: 127.0.0.1:64033
+[2015-05-27 00:28:50] DEBUG accept: 127.0.0.1:64056
+[2015-05-27 00:28:50] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:28:50] DEBUG close: 127.0.0.1:64056
+[2015-05-27 00:28:53] DEBUG accept: 127.0.0.1:64057
+[2015-05-27 00:28:53] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:28:53] DEBUG close: 127.0.0.1:64057
+[2015-05-27 00:29:18] DEBUG accept: 127.0.0.1:64070
+[2015-05-27 00:29:18] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:29:18] DEBUG close: 127.0.0.1:64070
+[2015-05-27 00:29:35] DEBUG accept: 127.0.0.1:64074
+[2015-05-27 00:29:35] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:29:35] DEBUG close: 127.0.0.1:64074
+[2015-05-27 00:30:16] DEBUG accept: 127.0.0.1:64089
+[2015-05-27 00:30:16] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:30:16] DEBUG close: 127.0.0.1:64089
+[2015-05-27 00:30:31] DEBUG accept: 127.0.0.1:64098
+[2015-05-27 00:30:31] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:30:31] DEBUG close: 127.0.0.1:64098
+[2015-05-27 00:30:37] DEBUG accept: 127.0.0.1:64099
+[2015-05-27 00:30:37] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:30:37] DEBUG close: 127.0.0.1:64099
+[2015-05-27 00:30:42] DEBUG accept: 127.0.0.1:64101
+[2015-05-27 00:30:42] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:30:42] DEBUG close: 127.0.0.1:64101
+[2015-05-27 00:31:13] DEBUG accept: 127.0.0.1:64114
+[2015-05-27 00:31:13] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:31:13] DEBUG close: 127.0.0.1:64114
+[2015-05-27 00:32:01] DEBUG accept: 127.0.0.1:64131
+[2015-05-27 00:32:01] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:32:01] DEBUG close: 127.0.0.1:64131
+[2015-05-27 00:32:03] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-27 00:32:03] DEBUG close TCPSocket(::1, 4567)
+[2015-05-27 00:32:03] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-27 00:32:03] INFO  going to shutdown ...
+[2015-05-27 00:32:03] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-27 00:32:07] INFO  WEBrick 1.3.1
+[2015-05-27 00:32:07] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-27 00:32:07] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-27 00:32:07] DEBUG TCPServer.new(::1, 4567)
+[2015-05-27 00:32:07] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-27 00:32:07] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-27 00:32:07] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-27 00:32:07] INFO  WEBrick::HTTPServer#start: pid=59897 port=4567
+[2015-05-27 00:32:11] DEBUG accept: 127.0.0.1:64133
+[2015-05-27 00:32:11] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:32:11] DEBUG close: 127.0.0.1:64133
+[2015-05-27 00:33:09] DEBUG accept: 127.0.0.1:64151
+[2015-05-27 00:33:09] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:33:09] DEBUG close: 127.0.0.1:64151
+[2015-05-27 00:33:17] DEBUG accept: 127.0.0.1:64153
+[2015-05-27 00:33:17] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:33:17] DEBUG close: 127.0.0.1:64153
+[2015-05-27 00:40:25] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-27 00:40:25] DEBUG close TCPSocket(::1, 4567)
+[2015-05-27 00:40:25] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-27 00:40:25] INFO  going to shutdown ...
+[2015-05-27 00:40:25] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-27 00:40:28] INFO  WEBrick 1.3.1
+[2015-05-27 00:40:28] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-27 00:40:28] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-27 00:40:28] DEBUG TCPServer.new(::1, 4567)
+[2015-05-27 00:40:28] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-27 00:40:28] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-27 00:40:28] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-27 00:40:28] INFO  WEBrick::HTTPServer#start: pid=60739 port=4567
+[2015-05-27 00:40:42] DEBUG accept: 127.0.0.1:64287
+[2015-05-27 00:40:42] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:40:42] DEBUG close: 127.0.0.1:64287
+[2015-05-27 00:40:48] DEBUG accept: 127.0.0.1:64289
+[2015-05-27 00:40:48] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:40:48] DEBUG close: 127.0.0.1:64289
+[2015-05-27 00:46:39] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-27 00:46:39] DEBUG close TCPSocket(::1, 4567)
+[2015-05-27 00:46:39] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-27 00:46:39] INFO  going to shutdown ...
+[2015-05-27 00:46:39] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-27 00:46:42] INFO  WEBrick 1.3.1
+[2015-05-27 00:46:42] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-27 00:46:42] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-27 00:46:42] DEBUG TCPServer.new(::1, 4567)
+[2015-05-27 00:46:42] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-27 00:46:42] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-27 00:46:42] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-27 00:46:42] INFO  WEBrick::HTTPServer#start: pid=61339 port=4567
+[2015-05-27 00:46:55] DEBUG accept: 127.0.0.1:64323
+[2015-05-27 00:46:55] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:46:55] DEBUG close: 127.0.0.1:64323
+[2015-05-27 00:47:00] DEBUG accept: 127.0.0.1:64324
+[2015-05-27 00:47:00] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:47:00] DEBUG close: 127.0.0.1:64324
+[2015-05-27 00:47:07] DEBUG accept: 127.0.0.1:64326
+[2015-05-27 00:47:07] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:47:07] DEBUG close: 127.0.0.1:64326
+[2015-05-27 00:47:16] DEBUG accept: 127.0.0.1:64327
+[2015-05-27 00:47:16] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:47:16] DEBUG close: 127.0.0.1:64327
+[2015-05-27 00:47:19] DEBUG accept: 127.0.0.1:64328
+[2015-05-27 00:47:19] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 00:47:19] DEBUG close: 127.0.0.1:64328
+[2015-05-27 23:56:05] DEBUG accept: 127.0.0.1:64608
+[2015-05-27 23:56:05] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 23:56:05] ERROR NoMethodError: undefined method `join' for #<String:0x007ffd6a1b92b0>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-27 23:56:05] DEBUG close: 127.0.0.1:64608
+[2015-05-27 23:56:21] DEBUG accept: 127.0.0.1:64609
+[2015-05-27 23:56:21] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 23:56:21] ERROR NoMethodError: undefined method `join' for #<String:0x007ffd68bd4198>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-27 23:56:21] DEBUG close: 127.0.0.1:64609
+[2015-05-27 23:58:20] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-27 23:58:20] DEBUG close TCPSocket(::1, 4567)
+[2015-05-27 23:58:20] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-27 23:58:20] INFO  going to shutdown ...
+[2015-05-27 23:58:20] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-27 23:58:22] INFO  WEBrick 1.3.1
+[2015-05-27 23:58:22] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-27 23:58:22] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-27 23:58:22] DEBUG TCPServer.new(::1, 4567)
+[2015-05-27 23:58:22] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-27 23:58:22] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-27 23:58:22] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-27 23:58:22] INFO  WEBrick::HTTPServer#start: pid=63834 port=4567
+[2015-05-27 23:58:25] DEBUG accept: 127.0.0.1:64610
+[2015-05-27 23:58:25] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-27 23:58:25] ERROR NoMethodError: undefined method `join' for #<String:0x007fb7251d88a8>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-27 23:58:25] DEBUG close: 127.0.0.1:64610
+[2015-05-28 00:00:28] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-28 00:00:28] DEBUG close TCPSocket(::1, 4567)
+[2015-05-28 00:00:28] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-28 00:00:28] INFO  going to shutdown ...
+[2015-05-28 00:00:28] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-28 00:00:31] INFO  WEBrick 1.3.1
+[2015-05-28 00:00:31] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-28 00:00:31] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-28 00:00:31] DEBUG TCPServer.new(::1, 4567)
+[2015-05-28 00:00:31] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-28 00:00:31] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-28 00:00:31] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-28 00:00:31] INFO  WEBrick::HTTPServer#start: pid=64144 port=4567
+[2015-05-28 00:00:36] DEBUG accept: 127.0.0.1:64612
+[2015-05-28 00:00:36] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-28 00:00:36] ERROR NoMethodError: undefined method `join' for #<String:0x007f8aeba28848>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-28 00:00:36] DEBUG close: 127.0.0.1:64612
+[2015-05-28 00:01:16] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-28 00:01:16] DEBUG close TCPSocket(::1, 4567)
+[2015-05-28 00:01:16] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-28 00:01:16] INFO  going to shutdown ...
+[2015-05-28 00:01:16] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-28 00:01:18] INFO  WEBrick 1.3.1
+[2015-05-28 00:01:18] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-28 00:01:18] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-28 00:01:18] DEBUG TCPServer.new(::1, 4567)
+[2015-05-28 00:01:18] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-28 00:01:18] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-28 00:01:18] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-28 00:01:18] INFO  WEBrick::HTTPServer#start: pid=64409 port=4567
+[2015-05-28 00:01:23] DEBUG accept: 127.0.0.1:64613
+[2015-05-28 00:01:23] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-28 00:01:23] ERROR NoMethodError: undefined method `join' for #<String:0x007fd644c61368>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-28 00:01:23] DEBUG close: 127.0.0.1:64613
+[2015-05-28 00:02:50] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-28 00:02:50] DEBUG close TCPSocket(::1, 4567)
+[2015-05-28 00:02:50] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-28 00:02:50] INFO  going to shutdown ...
+[2015-05-28 00:02:50] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-28 00:02:52] INFO  WEBrick 1.3.1
+[2015-05-28 00:02:52] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-28 00:02:52] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-28 00:02:52] DEBUG TCPServer.new(::1, 4567)
+[2015-05-28 00:02:52] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-28 00:02:52] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-28 00:02:52] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-28 00:02:52] INFO  WEBrick::HTTPServer#start: pid=64697 port=4567
+[2015-05-28 00:02:57] DEBUG accept: 127.0.0.1:64614
+[2015-05-28 00:02:57] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-28 00:02:57] ERROR NoMethodError: undefined method `join' for #<String:0x007ff892bc4868>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-28 00:02:57] DEBUG close: 127.0.0.1:64614
+[2015-05-28 00:03:42] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-28 00:03:42] DEBUG close TCPSocket(::1, 4567)
+[2015-05-28 00:03:42] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-28 00:03:42] INFO  going to shutdown ...
+[2015-05-28 00:03:42] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-28 00:03:44] INFO  WEBrick 1.3.1
+[2015-05-28 00:03:44] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-28 00:03:44] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-28 00:03:44] DEBUG TCPServer.new(::1, 4567)
+[2015-05-28 00:03:44] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-28 00:03:44] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-28 00:03:44] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-28 00:03:44] INFO  WEBrick::HTTPServer#start: pid=64963 port=4567
+[2015-05-28 00:03:48] DEBUG accept: 127.0.0.1:64615
+[2015-05-28 00:03:48] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-28 00:03:48] DEBUG close: 127.0.0.1:64615
+[2015-05-28 23:52:48] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-28 23:52:48] DEBUG close TCPSocket(::1, 4567)
+[2015-05-28 23:52:48] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-28 23:52:48] INFO  going to shutdown ...
+[2015-05-28 23:52:48] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-28 23:52:54] INFO  WEBrick 1.3.1
+[2015-05-28 23:52:54] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-28 23:52:54] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-28 23:52:54] DEBUG TCPServer.new(::1, 4567)
+[2015-05-28 23:52:54] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-28 23:52:54] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-28 23:52:54] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-28 23:52:54] INFO  WEBrick::HTTPServer#start: pid=66643 port=4567
+[2015-05-29 00:34:35] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-29 00:34:35] DEBUG close TCPSocket(::1, 4567)
+[2015-05-29 00:34:35] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-29 00:34:35] INFO  going to shutdown ...
+[2015-05-29 00:34:35] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-29 00:34:38] INFO  WEBrick 1.3.1
+[2015-05-29 00:34:38] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-29 00:34:38] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-29 00:34:38] DEBUG TCPServer.new(::1, 4567)
+[2015-05-29 00:34:38] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-29 00:34:38] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-29 00:34:38] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-29 00:34:38] INFO  WEBrick::HTTPServer#start: pid=68437 port=4567
+[2015-05-29 00:40:43] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-29 00:40:43] DEBUG close TCPSocket(::1, 4567)
+[2015-05-29 00:40:43] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-29 00:40:43] INFO  going to shutdown ...
+[2015-05-29 00:40:43] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-29 00:40:46] INFO  WEBrick 1.3.1
+[2015-05-29 00:40:46] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-29 00:40:46] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-29 00:40:46] DEBUG TCPServer.new(::1, 4567)
+[2015-05-29 00:40:46] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-29 00:40:46] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-29 00:40:46] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-29 00:40:46] INFO  WEBrick::HTTPServer#start: pid=69707 port=4567
+[2015-05-29 00:40:49] DEBUG accept: 127.0.0.1:65190
+[2015-05-29 00:40:49] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-29 00:40:49] DEBUG close: 127.0.0.1:65190
+[2015-05-29 00:41:37] DEBUG accept: 127.0.0.1:65200
+[2015-05-29 00:41:37] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-29 00:41:37] ERROR NoMethodError: undefined method `join' for #<String:0x007f85d41bb578>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-29 00:41:37] DEBUG close: 127.0.0.1:65200
+[2015-05-29 00:42:25] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-29 00:42:25] DEBUG close TCPSocket(::1, 4567)
+[2015-05-29 00:42:25] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-29 00:42:25] INFO  going to shutdown ...
+[2015-05-29 00:42:25] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-29 00:42:28] INFO  WEBrick 1.3.1
+[2015-05-29 00:42:28] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-29 00:42:28] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-29 00:42:28] DEBUG TCPServer.new(::1, 4567)
+[2015-05-29 00:42:28] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-29 00:42:28] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-29 00:42:28] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-29 00:42:28] INFO  WEBrick::HTTPServer#start: pid=70193 port=4567
+[2015-05-29 00:42:30] DEBUG accept: 127.0.0.1:65212
+[2015-05-29 00:42:30] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-29 00:42:30] DEBUG close: 127.0.0.1:65212
+[2015-05-29 00:42:53] DEBUG accept: 127.0.0.1:65217
+[2015-05-29 00:42:53] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-29 00:42:53] DEBUG close: 127.0.0.1:65217
+[2015-05-29 00:45:17] DEBUG accept: 127.0.0.1:65253
+[2015-05-29 00:45:17] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-29 00:45:17] DEBUG close: 127.0.0.1:65253
+[2015-05-29 00:46:11] DEBUG accept: 127.0.0.1:65264
+[2015-05-29 00:46:11] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-29 00:46:11] DEBUG close: 127.0.0.1:65264
+[2015-05-29 00:47:29] DEBUG accept: 127.0.0.1:65285
+[2015-05-29 00:47:29] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-29 00:47:29] DEBUG close: 127.0.0.1:65285
+[2015-05-30 00:06:59] DEBUG accept: 127.0.0.1:50770
+[2015-05-30 00:07:02] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:07:02] ERROR NoMethodError: undefined method `join' for #<String:0x007fbe3c24ead0>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-30 00:07:02] DEBUG close: 127.0.0.1:50770
+[2015-05-30 00:07:06] DEBUG accept: 127.0.0.1:50771
+[2015-05-30 00:07:06] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:07:06] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:07:36] DEBUG close: 127.0.0.1:50771
+[2015-05-30 00:42:39] DEBUG accept: 127.0.0.1:50772
+[2015-05-30 00:42:39] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:42:39] DEBUG close: 127.0.0.1:50772
+[2015-05-30 00:42:51] DEBUG accept: 127.0.0.1:50773
+[2015-05-30 00:42:51] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:42:51] ERROR NoMethodError: undefined method `join' for #<String:0x007fbe3e03ca10>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-30 00:42:51] DEBUG close: 127.0.0.1:50773
+[2015-05-30 00:43:15] DEBUG accept: 127.0.0.1:50774
+[2015-05-30 00:43:15] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:43:15] ERROR NoMethodError: undefined method `join' for #<String:0x007fbe3d0ec5b0>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-30 00:43:15] DEBUG close: 127.0.0.1:50774
+[2015-05-30 00:44:23] DEBUG accept: 127.0.0.1:50775
+[2015-05-30 00:44:23] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:44:23] ERROR NoMethodError: undefined method `join' for #<String:0x007fbe3b96d808>
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:37:in `rescue in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `block in call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1467:in `synchronize'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sinatra-base-1.4.0/lib/sinatra/base.rb:1387:in `call'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:138:in `service'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/httpserver.rb:94:in `run'
+	/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/webrick-1.3.1/lib/webrick/server.rb:191:in `block in start_thread'
+[2015-05-30 00:44:23] DEBUG close: 127.0.0.1:50775
+[2015-05-30 00:45:57] DEBUG close TCPSocket(127.0.0.1, 4567)
+[2015-05-30 00:45:57] DEBUG close TCPSocket(::1, 4567)
+[2015-05-30 00:45:57] DEBUG close TCPSocket(fe80::1%lo0, 4567)
+[2015-05-30 00:45:57] INFO  going to shutdown ...
+[2015-05-30 00:45:57] INFO  WEBrick::HTTPServer#start done.
+/Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:146:in `to_app': missing run or map statement (RuntimeError)
+	from /Users/mimi/Workspace/dbrepository/server/config.ru:41:in `<main>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `eval'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:49:in `new_from_string'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/builder.rb:40:in `parse_file'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:208:in `app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:336:in `wrapped_app'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:272:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/lib/rack/server.rb:147:in `start'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/rack-1.6.1/bin/rackup:4:in `<top (required)>'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `load'
+	from /Users/mimi/.rbenv/versions/2.0.0-p451/bin/rackup:23:in `<main>'
+[2015-05-30 00:46:02] INFO  WEBrick 1.3.1
+[2015-05-30 00:46:02] INFO  ruby 2.0.0 (2014-02-24) [x86_64-darwin14.0.0]
+[2015-05-30 00:46:02] DEBUG TCPServer.new(127.0.0.1, 4567)
+[2015-05-30 00:46:02] DEBUG TCPServer.new(::1, 4567)
+[2015-05-30 00:46:02] DEBUG TCPServer.new(fe80::1%lo0, 4567)
+[2015-05-30 00:46:02] DEBUG WEBrick::HTTPServlet::FileHandler is mounted on /.
+[2015-05-30 00:46:02] DEBUG Rack::Handler::WEBrick is mounted on /.
+[2015-05-30 00:46:02] INFO  WEBrick::HTTPServer#start: pid=88502 port=4567
+[2015-05-30 00:46:07] DEBUG accept: 127.0.0.1:50776
+[2015-05-30 00:46:07] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:46:07] DEBUG close: 127.0.0.1:50776
+[2015-05-30 00:46:20] DEBUG accept: 127.0.0.1:50777
+[2015-05-30 00:46:20] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:46:20] DEBUG close: 127.0.0.1:50777
+[2015-05-30 00:48:37] DEBUG accept: 127.0.0.1:50778
+[2015-05-30 00:48:37] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:48:37] DEBUG close: 127.0.0.1:50778
+[2015-05-30 00:49:14] DEBUG accept: 127.0.0.1:50779
+[2015-05-30 00:49:14] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:49:14] DEBUG close: 127.0.0.1:50779
+[2015-05-30 00:51:41] DEBUG accept: 127.0.0.1:50780
+[2015-05-30 00:51:41] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 00:51:41] DEBUG close: 127.0.0.1:50780
+[2015-05-30 01:09:47] DEBUG accept: 127.0.0.1:50781
+[2015-05-30 01:09:47] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 01:09:47] DEBUG close: 127.0.0.1:50781
+[2015-05-30 01:10:18] DEBUG accept: 127.0.0.1:50782
+[2015-05-30 01:10:18] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 01:10:18] DEBUG close: 127.0.0.1:50782
+[2015-05-30 01:15:18] DEBUG accept: 127.0.0.1:50783
+[2015-05-30 01:15:18] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 01:15:18] DEBUG close: 127.0.0.1:50783
+[2015-05-30 01:17:59] DEBUG accept: 127.0.0.1:50784
+[2015-05-30 01:17:59] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 01:17:59] DEBUG close: 127.0.0.1:50784
+[2015-05-30 01:18:54] DEBUG accept: 127.0.0.1:50785
+[2015-05-30 01:18:54] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 01:18:54] DEBUG close: 127.0.0.1:50785
+[2015-05-30 01:25:18] DEBUG accept: 127.0.0.1:50786
+[2015-05-30 01:25:18] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 01:25:18] DEBUG close: 127.0.0.1:50786
+[2015-05-30 01:25:38] DEBUG accept: 127.0.0.1:50787
+[2015-05-30 01:25:38] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 01:25:38] DEBUG close: 127.0.0.1:50787
+[2015-05-30 01:25:42] DEBUG accept: 127.0.0.1:50788
+[2015-05-30 01:25:42] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-30 01:25:42] DEBUG close: 127.0.0.1:50788
+[2015-05-31 06:32:50] DEBUG accept: 127.0.0.1:51128
+[2015-05-31 06:32:50] DEBUG Rack::Handler::WEBrick is invoked.
+[2015-05-31 06:32:51] DEBUG close: 127.0.0.1:51128

@@ -1,0 +1,156 @@
+#!/usr/bin/env ruby
+
+require 'thor'
+require 'JSON'
+
+%w(../lib/rest/client
+   ../lib/config/config_reader
+   ../lib/database/database_driver_builder
+   ../lib/storage/storage_factory
+   ../lib/storage/abstract_storage
+   ../lib/storage/file_storage
+   ../lib/dbgit/version
+   ../lib/dbgit_service
+).each do |requirement|
+  base_path = ::File.dirname(::File.expand_path(__FILE__))
+  require "#{base_path}/#{requirement}"
+end
+
+module Dbgit
+  class Client < Thor
+
+    # If no task name is given, show 'help' task
+    default_task :help
+
+
+
+    def initialize(*args)
+      super
+      @base_path = ::File.dirname(::File.expand_path(__FILE__))
+      # TODO we need a search path for the config file. This should be ['~/.dbgit/config.json', '.dbgit/config.json', ENV['dbgit_config']]
+      @dbgit_service = Dbgit::Service.new(DatabaseRepository::Config::Reader.new("#{@base_path}/../config/dbgit.json").configuration)
+    end
+
+
+
+    desc 'create database [tag]', 'Create a local database snapshot for given database using an optionally given tag'
+    long_desc <<-LONGDESC
+      `create database [tag]` creates a snapshot of the given database with an optionally given tag.
+      If no tag is given, the current timestamp is used as a tag.
+
+      $ dbgit create my_database my_tag
+    LONGDESC
+    option :database, :type => :string, :desc => 'Database name of the database from which to take a snapshot'
+    option :tag,      :type => :string, :desc => 'Tag name to be used for the snapshot (optionally). If no tag is given, timestamp will be used'
+    def create(database, tag=nil)
+      puts 'Create new local database snapshot...'
+      result = @dbgit_service.create_snapshot(database, tag)
+      [
+        "  * Database:     #{database}",
+        "  * Tag name:     #{result[:tag]}",
+        "  * Driver:       #{result[:database_driver]}",
+        "  * Storage Path: #{result[:snapshot_location]}",
+        'Finished creating new local database snapshot'
+      ].each { |line| puts line}
+    end
+
+
+
+    desc 'push database tag', 'Pushes the database snapshot identified by database and tag to the remote repository.'
+    option :database, :type => :string, :desc => 'Name of the database for which to push a snapshot'
+    option :tag, :type => :string, :desc => 'Name of the snapshot, which should be pushed'
+    def push(database, tag)
+      result = @dbgit_service.push_snapshot(database, tag)
+      puts "Snapshot was pushed to Database Repository Server. Snapshot URL: #{result['url']}"
+    end
+
+
+
+    desc 'pull database tag', 'Pulls the snapshot identified by database and tag from the remote repository.'
+    option :database, :type => :string, :desc => 'Name of the database for which to pull a snapshot'
+    option :tag, :type => :string, :desc => 'Name of the snapshot, which should be pulled'
+    def pull(database, tag)
+      storage_path = @dbgit_service.pull_snapshot(database, tag)
+      puts "Snapshot written to #{storage_path}"
+    end
+
+
+
+    desc 'apply database snapshot tag', 'Imports the snapshot with the given tag into the database.'
+    long_desc <<-LONGDESC
+      `apply database snapshot tag` applies the snapshot identified by `snapshot` and `tag` into the database identified by `database`.
+
+      $ dbgit apply my_database my_snapshot my_tag
+    LONGDESC
+    option :database, :type => :string, :desc => 'Name of the database into which snapshot should be imported'
+    option :snapshot, :type => :string, :desc => 'Name of the snapshot that should be imported'
+    option :tag, :type => :string, :desc => 'Name of the snapshot tag that should be imported'
+    def apply(database, snapshot, tag)
+      result = @dbgit_service.apply_snapshot(database, snapshot, tag)
+      puts result
+    end
+
+
+
+    desc 'delete-remote database tag', 'Deletes a remote snapshot of a database identified by a given tag name'
+    option :database, :type => :string, :desc => 'Name of the database for which to delete the remote snapshot'
+    option :tag, :type => :string, :desc => 'Name of the tag which should be deleted'
+    def delete_remote(database, tag)
+      if @dbgit_service.delete_remote_snapshot(database, tag)
+        puts 'Snapshot was successfully deleted'
+      else
+        puts 'Something went wrong deleting the snapshot!'
+      end
+    end
+
+
+
+    desc 'delete database tag', 'Deletes a local snapshot of a database identified by a given tag name'
+    option :database, :type => :string, :desc => 'Name of the database for which to delete the local snapshot'
+    option :tag, :type => :string, :desc => 'Name of the tag which should be deleted'
+    def delete(database, tag)
+      if @dbgit_service.delete(database, tag)
+        puts 'Snapshot was successfully deleted'
+      else
+        puts 'Something went wrong deleting the snapshot!'
+      end
+    end
+
+
+
+    desc 'ls-remote database', 'Lists all remote snapshots for a database'
+    option :database, :type => :string, :desc => 'Name of the database for which to list remote snapshots for'
+    def ls_remote(database)
+      snapshots = @dbgit_service.list_remote_snapshots(database)
+      if snapshots.count > 0
+        puts "The following remote snapshots are available for database #{database}:"
+        snapshots.each {| snapshot | puts "  #{snapshot}"}
+      else
+        puts "No remote snapshots available for database #{database}"
+      end
+    end
+
+
+    desc 'ls database', 'Lists all local snapshots for a database'
+    option :database, :type => :string, :desc => 'Name of the database for which to list local snapshots for'
+    def ls(database)
+      snapshots = @dbgit_service.list_local_snapshots(database)
+      if snapshots.count > 0
+        puts "The following local snapshots are available for database #{database}:"
+        snapshots.each {| snapshot | puts "  #{snapshot}"}
+      else
+        puts "No local snapshots available for database #{database}"
+      end
+    end
+
+
+
+    desc 'version', 'Show the version of the dbgit client'
+    def version
+      puts "Dbgit client version #{Dbgit::VERSION}"
+    end
+
+  end
+end
+
+Dbgit::Client.start

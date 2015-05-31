@@ -1,0 +1,78 @@
+{
+  "storage": {
+    "storage_engine": "DatabaseRepository::Storage::FileStorage",
+    "storage_folder": "/Users/mimi/dbrepository"
+  },
+  "databases": {
+    "onebruker_dev": {
+      "driver": "mysql",
+      "credentials": {
+        "host": "10.20.30.40",
+        "database": "onebruker_dev",
+        "user": "onebruker_dev",
+        "password": "onebruker_dev"
+      },
+      "non_blocking": true,
+      "ignore_tables": [
+        "be_sessions",
+        "cache_extensions",
+        "cache_hash",
+        "cache_imagesizes",
+        "cache_md5params",
+        "cache_pages",
+        "cache_pagesection",
+        "cache_treelist",
+        "cache_typo3temp_log",
+        "cachingframework_cache_hash",
+        "cachingframework_cache_hash_tags",
+        "cachingframework_cache_pages",
+        "cachingframework_cache_pages_tags",
+        "cachingframework_cache_pagesection",
+        "cachingframework_cache_pagesection_tags",
+        "cf_ptonebrukerbase_hierarchicalmenu_cache",
+        "cf_ptonebrukerbase_hierarchicalmenu_cache_tags",
+        "fe_session_data",
+        "fe_sessions",
+        "sys_log",
+        "sys_history",
+        "index_config",
+        "index_debug",
+        "index_fulltext",
+        "index_grlist",
+        "index_phash",
+        "index_rel",
+        "index_section",
+        "index_stat_search",
+        "index_stat_word",
+        "index_words",
+        "tx_devlog",
+        "tt_news_cache",
+        "tt_news_cache_tags",
+        "tx_extbase_cache_object",
+        "tx_extbase_cache_object_tags",
+        "tx_extbase_cache_reflection",
+        "tx_extbase_cache_reflection_tags",
+        "tx_formhandler_log",
+        "tx_solr_cache",
+        "tx_solr_cache_tags",
+        "tx_solr_last_searches",
+        "tx_solr_statistics",
+        "tx_tqseo_cache",
+        "tx_realurl_errorlog",
+        "tx_yag_domain_model_resolutionfilecache"
+      ]
+    },
+    "neosbase" : {
+      "driver" : "mysql",
+      "credentials" : {
+        "user" : "root",
+        "host" : "localhost",
+        "database" : "neosbase"
+      },
+      "lock" : false,
+      "ignore_tables" : [
+        "flow_doctrine_migrationstatus"
+      ]
+    }
+  }
+}
